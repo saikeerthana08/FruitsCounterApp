@@ -1,0 +1,73 @@
+/* Write your CSS here */
+
+.bg-container {
+  background-color: #ffd569;
+  min-height: 100vh;
+  font-family: 'Roboto';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 15px;
+  padding: 24px;
+}
+
+.main-title {
+  font-weight: 400;
+  font-size: 40px;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.fruit-container {
+  margin-top: 50px;
+}
+.fruit-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.fruit-button {
+  background-color: #007bff;
+  border-width: 0;
+  color: white;
+  border-radius: 5px;
+  font-family: 'Roboto';
+  font-size: 14px;
+  height: 38px;
+  width: 100px;
+  margin-top: 15px;
+}
+
+.fruit-button:hover {
+  cursor: pointer;
+  outline: none;
+}
+
+.image {
+  width: 30%;
+}
+
+@media screen and (min-width: 768px) {
+  .card {
+    width: 90%;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .fruit-container {
+    display: flex;
+  }
+  .image {
+    width: 55%;
+  }
+}
