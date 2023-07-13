@@ -1,4 +1,4 @@
-In this project, let's build a **Fruits Counter** App.
+In this project, I build a **Fruits Counter** App.
 
 ### Refer to the image below:
 
